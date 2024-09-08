@@ -6,5 +6,5 @@ I decided to utilize machine learning and deep learning to try and see if its po
 
 Our model achieved a respectable 0.22 MSE
 
-More about the model can be found the following presentation:
+More about the model can be found in the following presentation:
 [ANN presentation.pptx](https://github.com/user-attachments/files/15937640/ANN.presentation.pptx)
