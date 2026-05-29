@@ -1,0 +1,36 @@
+{
+  "raw_source_dataset": "final_data_v4.csv",
+  "modeling_dataset": "finalDataModel.csv",
+  "target": "log1p(fiyat)",
+  "rows_after_cleaning": 23537,
+  "feature_count": 31,
+  "test_size": 0.3,
+  "random_state": 101,
+  "results": [
+    {
+      "model": "Linear Regression",
+      "mse": 0.36088222801690883,
+      "mae": 0.3758172797786767,
+      "rmse": 0.600734740144857,
+      "r2": 0.24430010423682025,
+      "explained_variance": 0.24435817322133246
+    },
+    {
+      "model": "Decision Tree",
+      "mse": 0.27641014360417143,
+      "mae": 0.3074263665209014,
+      "rmse": 0.5257472240575041,
+      "r2": 0.42118757729524203,
+      "explained_variance": 0.4212300870649923
+    },
+    {
+      "model": "Artificial Neural Network (Keras)",
+      "mse": 0.3120421845441737,
+      "mae": 0.3604760228203596,
+      "rmse": 0.5586073616988714,
+      "r2": 0.34657284835124025,
+      "explained_variance": 0.3503426224871604,
+      "epochs_trained": 75
+    }
+  ]
+}
